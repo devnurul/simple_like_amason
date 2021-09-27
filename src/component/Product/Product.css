@@ -1,0 +1,13 @@
+.product{
+    display:flex;
+    padding: 30px;
+    border-bottom: 1px solid #ddd;
+   }
+  .productInformation{
+      margin-left: 30px;
+  }
+  .productInformation button{
+      background: rgb(230, 171, 11);
+      padding: 8px 80px;
+      cursor: pointer;
+  }
