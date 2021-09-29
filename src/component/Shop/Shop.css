@@ -1,8 +1,16 @@
 .shopPage{
     display:flex;
 }
-.sidebar{
-    width: 500px;
+.sidebar {
+    width: 20vw;
     border-left: 1px solid #ddd;
- 
+    position: fixed;
+    top: 124px;
+    right: 0;
+    background: rgb(191, 206, 246);
+    padding: 0 38px;
+    box-sizing: border-box;
+}
+.shopPage .product{
+    width: 75vw;
 }

@@ -8,8 +8,7 @@ const Shop = () => {
     const [cart, setCart] = useState([]);
 
     const handerAddProduct = (product) => {
-      console.log('product added');
-      const newCart = [...cart, product]
+      const newCart = [...cart, product];
       setCart(newCart)
     }
 
@@ -31,7 +30,7 @@ const Shop = () => {
                }
              </div>
              <div className="sidebar">
-               <Cart></Cart>
+               <Cart cart = {cart}></Cart>
              </div>
         </div>
     
